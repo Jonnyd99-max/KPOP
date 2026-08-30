@@ -1,6 +1,38 @@
 {
-  "updatedAt": "2026-08-30T14:00:00Z",
+  "updatedAt": "2026-08-30T16:00:00Z",
   "items": [
+    {
+      "label": "CHART WATCH",
+      "title": "KATSEYE’s WILD remains on the UK Albums Chart",
+      "summary": "The group’s latest EP has secured a second week on the UK Official Albums Chart.",
+      "source": "KPOP HOUSE",
+      "published": "30 Aug 2026",
+      "url": "https://kpophouse.eu/eu/blog"
+    },
+    {
+      "label": "MUSIC SHOW",
+      "title": "ENHYPEN earns a Music Core trophy with Bloody Paradise",
+      "summary": "The group added another music-show win during promotions for THE SIN : BLISS.",
+      "source": "KPOP HOUSE",
+      "published": "30 Aug 2026",
+      "url": "https://kpophouse.eu/eu/blog"
+    },
+    {
+      "label": "CHART ROUNDUP",
+      "title": "Stray Kids and ENHYPEN feature in this week’s K-pop chart",
+      "summary": "A weekly snapshot of songs moving across the chart at the end of August.",
+      "source": "KPOPREVIEWED",
+      "published": "30 Aug 2026",
+      "url": "https://kpopreviewed.com/2026/08/30/weekly-kpop-chart-wk4aug26/"
+    },
+    {
+      "label": "FANDOM PULSE",
+      "title": "The biggest K-pop conversations from the past week",
+      "summary": "A community-curated roundup covering releases, performances and the stories drawing the most discussion.",
+      "source": "r/kpop",
+      "published": "29 Aug 2026",
+      "url": "https://www.reddit.com/r/kpop/comments/1w21wr6/this_week_in_kpop_august_29_2026/"
+    },
     {
       "label": "REPORTED",
       "title": "KATSEYE says diversity is its greatest strength",
@@ -10,20 +42,12 @@
       "url": "https://www.koreajoongangdaily.com/tag/katseye"
     },
     {
-      "label": "COMEBACK WATCH",
-      "title": "August releases bring Stray Kids and KATSEYE to the front",
-      "summary": "A sourced overview of the month’s crowded comeback calendar and major releases.",
-      "source": "The Korea Times",
-      "published": "5 Aug 2026",
-      "url": "https://www.koreatimes.co.kr/amp/entertainment/k-pop/20260805/reshuffled-lineups-solo-returns-wave-of-debuts-define-augusts-k-pop-releases"
-    },
-    {
-      "label": "OFFICIAL",
-      "title": "KATSEYE shares the latest WILD updates",
-      "summary": "Official release activity, media appearances and fan updates from Universal Music Japan.",
-      "source": "Universal Music Japan",
-      "published": "13 Aug 2026",
-      "url": "https://www.universal-music.co.jp/katseye/news/"
+      "label": "TRENDING",
+      "title": "Stray Kids and ENHYPEN place in the latest rising-artist rankings",
+      "summary": "The latest brand-data report tracks the artists gaining attention across Korea’s music scene.",
+      "source": "STARNEWS",
+      "published": "26 Aug 2026",
+      "url": "https://www.starnewskorea.com/en/music/2026/08/26/2026082606422982522"
     }
   ]
 }
