@@ -1,6 +1,6 @@
 'use client';
 
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 
 const groups = [
   { name: 'BLACKPINK', fandom: 'BLINK', agency: 'YG Entertainment', debut: '2016', members: ['Jisoo', 'Jennie', 'Rosé', 'Lisa'], color: '#ff4fa3', initials: 'BP', status: 'World tour' },
@@ -18,16 +18,25 @@ const stories = [
 ];
 
 const tours = [
-  { day: '04', month: 'SEP', artist: 'Stray Kids', city: 'Paris', venue: 'Stade de France', flag: '🇫🇷' },
-  { day: '11', month: 'SEP', artist: 'BLACKPINK', city: 'London', venue: 'Wembley Stadium', flag: '🇬🇧' },
-  { day: '19', month: 'SEP', artist: 'ENHYPEN', city: 'Berlin', venue: 'Uber Arena', flag: '🇩🇪' },
+  { day: '01', month: 'DEC', artist: 'ENHYPEN', city: 'Tokyo', venue: 'Tokyo Dome · 1–2 Dec 2026', flag: '🇯🇵', source: 'https://enhypen-jp.weverse.io/news/5568448a1b6d' },
+  { day: '26', month: 'DEC', artist: 'ENHYPEN', city: 'Aichi', venue: 'Vantelin Dome · 26–27 Dec 2026', flag: '🇯🇵', source: 'https://enhypen-jp.weverse.io/news/5568448a1b6d' },
+  { day: '06', month: 'FEB', artist: 'ENHYPEN', city: 'Fukuoka', venue: 'Mizuho PayPay Dome · 6–7 Feb 2027', flag: '🇯🇵', source: 'https://enhypen-jp.weverse.io/news/5568448a1b6d' },
 ];
 
 export default function Home() {
   const [query, setQuery] = useState('');
   const [active, setActive] = useState('Discover');
   const [saved, setSaved] = useState<string[]>([]);
+  const [catalog, setCatalog] = useState<Record<string, { mbid: string | null; tags: string[] }>>({});
+  const [catalogStatus, setCatalogStatus] = useState('Connecting to live catalogue…');
   const filtered = useMemo(() => groups.filter((g) => `${g.name} ${g.members.join(' ')}`.toLowerCase().includes(query.toLowerCase())), [query]);
+
+  useEffect(() => {
+    fetch('/api/artists').then((response) => response.json() as Promise<{ artists: Array<{ name: string; mbid: string | null; tags: string[] }> }>).then((data) => {
+      setCatalog(Object.fromEntries(data.artists.map((artist: { name: string; mbid: string | null; tags: string[] }) => [artist.name, artist])));
+      setCatalogStatus('Live MusicBrainz catalogue connected');
+    }).catch(() => setCatalogStatus('Showing verified local fact files'));
+  }, []);
 
   return <main>
     <nav className="nav">
@@ -48,10 +57,10 @@ export default function Home() {
     <section className="ticker"><b>TRENDING NOW</b><span>BLACKPINK world tour</span><i>•</i><span>Stray Kids comeback</span><i>•</i><span>aespa new era</span><i>•</i><span>SEVENTEEN fan meeting</span></section>
 
     <section className="section artists" id="artists">
-      <div className="section-head"><div><div className="kicker">MEET THE SCENE</div><h2>Artists to know</h2></div><span>{filtered.length} profiles</span></div>
+      <div className="section-head"><div><div className="kicker">MEET THE SCENE</div><h2>Artists to know</h2><p className="sync-status"><span />{catalogStatus}</p></div><span>{filtered.length} profiles</span></div>
       <div className="artist-grid">{filtered.map((group, index) => <article className="artist-card" key={group.name} style={{'--accent': group.color} as React.CSSProperties}>
         <div className="portrait"><span className="monogram">{group.initials}</span><span className="status">{group.status}</span><button className={saved.includes(group.name) ? 'heart saved' : 'heart'} onClick={() => setSaved((s) => s.includes(group.name) ? s.filter(x => x !== group.name) : [...s, group.name])} aria-label={`Save ${group.name}`}>♥</button><span className="number">0{index + 1}</span></div>
-        <div className="card-body"><h3>{group.name}</h3><p>{group.agency} · Debut {group.debut}</p><div className="members">{group.members.slice(0, 5).map(m => <span key={m}>{m}</span>)}{group.members.length > 5 && <span>+{group.members.length - 5}</span>}</div><div className="card-foot"><span>Fandom: <b>{group.fandom}</b></span><button>Fact file →</button></div></div>
+        <div className="card-body"><h3>{group.name}</h3><p>{group.agency} · Debut {group.debut}</p><div className="members">{group.members.slice(0, 5).map(m => <span key={m}>{m}</span>)}{group.members.length > 5 && <span>+{group.members.length - 5}</span>}</div><div className="card-foot"><span>Fandom: <b>{group.fandom}</b></span>{catalog[group.name]?.mbid ? <a href={`https://musicbrainz.org/artist/${catalog[group.name].mbid}`} target="_blank" rel="noreferrer">Live source ↗</a> : <span>Curated</span>}</div></div>
       </article>)}</div>
       {!filtered.length && <div className="empty">No match yet — try an artist or member name.</div>}
     </section>
@@ -64,7 +73,7 @@ export default function Home() {
 
     <section className="section tour" id="tours">
       <div className="section-head"><div><div className="kicker">PACK YOUR LIGHTSTICK</div><h2>On tour next</h2></div><button className="calendar-btn">Full calendar ↗</button></div>
-      <div className="tour-list">{tours.map(t => <article key={t.artist}><div className="date"><b>{t.day}</b><span>{t.month}</span></div><div className="tour-artist"><span className="mini-avatar">{t.artist.slice(0,2).toUpperCase()}</span><div><h3>{t.artist}</h3><p>{t.venue}</p></div></div><div className="city"><span>{t.flag}</span><div><b>{t.city}</b><small>Doors 18:30</small></div></div><button>Tickets ↗</button></article>)}</div>
+      <div className="tour-list">{tours.map(t => <article key={`${t.artist}-${t.day}-${t.city}`}><div className="date"><b>{t.day}</b><span>{t.month}</span></div><div className="tour-artist"><span className="mini-avatar">{t.artist.slice(0,2).toUpperCase()}</span><div><h3>{t.artist}</h3><p>{t.venue}</p></div></div><div className="city"><span>{t.flag}</span><div><b>{t.city}</b><small>Official announcement</small></div></div><a className="source-button" href={t.source} target="_blank" rel="noreferrer">Source ↗</a></article>)}</div>
     </section>
 
     <footer><a className="brand" href="#top"><span>K</span>POP<span className="brand-dot">•</span></a><p>Your fandom, beautifully organised.</p><span>Prototype data · Verify dates with official organisers</span></footer>
