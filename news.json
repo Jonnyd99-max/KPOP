@@ -1,14 +1,6 @@
 {
-  "updatedAt": "2026-09-06T12:27:44.817463+00:00",
+  "updatedAt": "2026-09-06T15:22:49.743229+00:00",
   "items": [
-    {
-      "label": "LATEST",
-      "title": "Weekly K-pop Playlist: Here are the songs we are currently jamming to",
-      "summary": "Weekly K-pop Playlist: Here are the songs we are currently jamming to t2ONLINE",
-      "source": "t2ONLINE",
-      "published": "6 Sep 2026",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMlJKdjZzNHZRaGljb2lfOVNGOUhqZXhOTmgwYXMwYURWb0ZvTDZTcEJ3TjJDc24tVUx4bzdSNjRtb1hmZEt3dGkzVUJTTlZ2Z3ZLcV9qUGQ1Qi1XTGNfZmREUjFNdktzS3Voa0dvVzRiRWlyaThvYnBiakdwb0sxaS1ONnd5cmo0UzlOX2FFcUpLdi01ZnQ4aEJsZnFPY1NsWTM2SWZhS3djMU5wakFF?oc=5"
-    },
     {
       "label": "LATEST",
       "title": "BLACKPINK's Lisa looked back on her years as a K-pop trainee and the personal sacrifices that came with being part of one of the world's biggest girl groups. Full story link in the comment section.",
@@ -19,19 +11,51 @@
     },
     {
       "label": "LATEST",
+      "title": "LISA Documentary Exploring Her Year Away From BLACKPINK Heading To Theaters",
+      "summary": "LISA Documentary Exploring Her Year Away From BLACKPINK Heading To Theaters RTTNews",
+      "source": "RTTNews",
+      "published": "6 Sep 2026",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNNjIxXzRLS0g2UFl0bkJuUXdlN3hhMkJoWDYwTVJIRDFzSTJLRk81MXZsTTFRTG9KNW0yb0ZPeXoxSTZNaFdYOVVUUVdQUGpYOFJlSFU0dUFiVDRlLUVSdVZ1X3FzRUNuSzBIemRJcC1EZVlPSm9qZTJXa002TUVPSGozX3FhbERhMGZ4MWhoZTkwbmJiZUV2WkRNbHJUTk8wNk1MNUF3Y1ZqY3JpMWRXZU93?oc=5"
+    },
+    {
+      "label": "LATEST",
+      "title": "THIS WEEK IN K-POP: Ranking the New Releases from August 30 – September 5",
+      "summary": "THIS WEEK IN K-POP: Ranking the New Releases from August 30 – September 5 thebiaslist.com",
+      "source": "thebiaslist.com",
+      "published": "6 Sep 2026",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdkx2QTRhV3E1YmJDNVNUcmxDd1RLeUxrMTk5aW00V0x6R2V2TVZiaHNDd1BTenNkWVIxQk1kMEZRbVEzUG01MWM1M2htNEZwRDZLRnJaaGVWOVpMbXhybmpOZGlmU3hkU014MGdQMUxaeTk4SzhpTDdlem5zbXh1aWNqLTNBV0RndkdMdURQTkJ0YktiMjFIS3FNWDhvd3BMMkw0cXNlcGF1QQ?oc=5"
+    },
+    {
+      "label": "LATEST",
+      "title": "מודיעין עילית בצמרת הילודה בישראל: יותר מ-3,000 תינוקות נולדו בתשפ\"ו",
+      "summary": "מודיעין עילית בצמרת הילודה בישראל: יותר מ-3,000 תינוקות נולדו בתשפ\"ו חרדים10",
+      "source": "חרדים10",
+      "published": "6 Sep 2026",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1sNEF5MlZiMTRUa3VrSXR5QkQxclk2SVFwcXpOem9aN1kwZU1WZ0t4UFIyNWtld1FNbDlabjc1VF9JMWhVZzF4Y0YxVQ?oc=5"
+    },
+    {
+      "label": "LATEST",
+      "title": "Lisa BLACKPINK Releases “SaWaDiKa” Ahead of EP “Press Play” and Las Vegas Residency",
+      "summary": "Lisa BLACKPINK Releases “SaWaDiKa” Ahead of EP “Press Play” and Las Vegas Residency VOI.id",
+      "source": "VOI.id",
+      "published": "6 Sep 2026",
+      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE4ydFBDRVdldHBoMHFoLXEtc044cmN6dEFSMkRzZkkxM3ZtRFAwRnNDWEpkWjFuTkdPanprQnFTYmxxbzBk0gFCQVVfeXFMTVdKX01BcUwwbHpJamhCTGlYUEJucnVEUG9zejR6RjhKMGZ0dklwRWxfWF9ENDIxT3ZWX0tNb1FFanRR?oc=5"
+    },
+    {
+      "label": "LATEST",
+      "title": "Weekly K-pop Playlist: Here are the songs we are currently jamming to",
+      "summary": "Weekly K-pop Playlist: Here are the songs we are currently jamming to t2ONLINE",
+      "source": "t2ONLINE",
+      "published": "6 Sep 2026",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMlJKdjZzNHZRaGljb2lfOVNGOUhqZXhOTmgwYXMwYURWb0ZvTDZTcEJ3TjJDc24tVUx4bzdSNjRtb1hmZEt3dGkzVUJTTlZ2Z3ZLcV9qUGQ1Qi1XTGNfZmREUjFNdktzS3Voa0dvVzRiRWlyaThvYnBiakdwb0sxaS1ONnd5cmo0UzlOX2FFcUpLdi01ZnQ4aEJsZnFPY1NsWTM2SWZhS3djMU5wakFF?oc=5"
+    },
+    {
+      "label": "LATEST",
       "title": "CNN Apologizes for Dolly Parton Photo Mix-Up, KATSEYE Drops Out of Daisy Chain & More | THR News Video",
       "summary": "CNN Apologizes for Dolly Parton Photo Mix-Up, KATSEYE Drops Out of Daisy Chain & More | THR News Video The Hollywood Reporter",
       "source": "The Hollywood Reporter",
       "published": "6 Sep 2026",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOY2dIdGV5VlJSVWhVUnBPSkZNQ0dZNWRwUVI2d0JtWHp3TjNDUjQ3aklaamhFenRFelcwYzItQVpMS0s5MWdyOHZnbHFsNVljS0EyN2lmUFlVVXVqek9wbHJSVkN3OXcyaE9nR3lCZ2Z6SzduOHRqdkRLQy05X1hFRlZtRzJ4S0lnX0FYYWN0SmlnRjJ5TDFpQTJ2bVk1UjBmenctazhnaVRrLVdCdUlnSnJ0dzdsQWgy?oc=5"
-    },
-    {
-      "label": "LATEST",
-      "title": "K-pop choreography splits along gender lines: harder for boy groups, freer for girl groups",
-      "summary": "K-pop choreography splits along gender lines: harder for boy groups, freer for girl groups koreaherald.com",
-      "source": "koreaherald.com",
-      "published": "6 Sep 2026",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9HbmhuS0Y4eU8ydllRWkdBVWhyQ2Fnc051Nk1KTkk0a0xtUF9SZUZub3dhaU5abjlSOW5jRzEtRXR1T1VQRmhpVnozTUZQeVFLTjNnUHc0bw?oc=5"
     },
     {
       "label": "LATEST",
@@ -68,34 +92,18 @@
     {
       "label": "LATEST",
       "title": "Le sserafim - Iconic By Mistake Ft. Illit & Katseye | MP3 Download",
-      "summary": "Le sserafim - Iconic By Mistake Ft. Illit & Katseye | MP3 Download voxtrendy.com",
-      "source": "voxtrendy.com",
+      "summary": "Le sserafim - Iconic By Mistake Ft. Illit & Katseye | MP3 Download Voxtrendy",
+      "source": "Voxtrendy",
       "published": "6 Sep 2026",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQRUpoS0lWMExwbUJxTkJlMHBYVGlIOTVLeE5NV05mMVBnbWtHaGE0VnE0TDhuWi1qMUVfM1VjQWtXY09UckVjc3RyZ0dGdW9fRmxzbk5xMzZORTgxVW1pTVZ0aFY5dmZPd25hcUpfdkZfaC1oSmRUYTBkZG1RWWZZZWpILXY5bDB1bFNz?oc=5"
     },
     {
       "label": "LATEST",
-      "title": "Blackpink’s Lisa says she hid past relationships as K-pop star",
-      "summary": "Blackpink’s Lisa says she hid past relationships as K-pop star The Star",
-      "source": "The Star",
-      "published": "6 Sep 2026",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQc1NYdS1yRnQ4b0RETmpEdDBwSFpSMEhGQXQtb2tTSFdidzVXSlZ1TGhpcVZia1h1VEpNZTMtVHVnMndKSjBNYlJRU2tIcmQtY09FaElCNlN2bTRqY0JUejg1WmZ3cnltMXVYcTNkX1lHdjcxTUFycVhVSWdpcGRUTnZxMWxQbTdBT1VqOTViRFNBNGZBZ0tKM1hPdndNb3N6N1VxMzRTdUFXZERqbTViTHA5UXhZUmNET2tPWEwzOU8?oc=5"
-    },
-    {
-      "label": "LATEST",
       "title": "Winners Of The 2026 K World Dream Awards",
-      "summary": "Winners Of The 2026 K World Dream Awards jazminemedia.com",
-      "source": "jazminemedia.com",
+      "summary": "Winners Of The 2026 K World Dream Awards JazmineMedia",
+      "source": "JazmineMedia",
       "published": "6 Sep 2026",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9DZVhsek1RUE5GVnhWaE84UjFCX29rYVhIUUtmWHR6blFkVUtQckczcVp6QWhXYzY3cGVXNVdNczlrNkRxWnlValA2b0pGOTl4NzhRS0VvVmlLLW1Ob01sVWZ6N2p5T3JwT3NWRW1aQllzZw?oc=5"
-    },
-    {
-      "label": "LATEST",
-      "title": "BLACKPINK BORNPINK PINK Version Sealed Brand NEW Mint USA 🇺🇸 Seller FastShip",
-      "summary": "BLACKPINK BORNPINK PINK Version Sealed Brand NEW Mint USA 🇺🇸 Seller FastShip MondoSonoro",
-      "source": "MondoSonoro",
-      "published": "6 Sep 2026",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5LN1FrRDhxcFVYZnpGdHNqOHdLdTZEMnEzbFh0SUFEMTZIRS16NUhYUnFVdTVjd0JGNk94Xy1iMHVFbEprLXJFV0h0VnVnTzFyUkdYU2FqNTZpV0hqY3JidnJuenN2QVRUYzBCOEgwUVhsU2ZJb3NxSEZnbWk4blk?oc=5"
     },
     {
       "label": "LATEST",
@@ -116,8 +124,8 @@
     {
       "label": "LATEST",
       "title": "ENHYPEN alumnus Evan opens Seoul pop-up to mark solo debut - CHOSUNBIZ",
-      "summary": "ENHYPEN alumnus Evan opens Seoul pop-up to mark solo debut - CHOSUNBIZ Chosunbiz",
-      "source": "Chosunbiz",
+      "summary": "ENHYPEN alumnus Evan opens Seoul pop-up to mark solo debut - CHOSUNBIZ biz.chosun.com",
+      "source": "biz.chosun.com",
       "published": "5 Sep 2026",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNkU1cFMzQU9XeTJLNGRpMk5hZVhpSml0VW5TTFpHM1JfZXpjb2h3STkyczRRSm9ua0kxaVBmR2MxNWJqbmxwc0lwcVpVb3BmdHRfWmhUVklDQlU0NHNVQUlRRnREbFJaY0JjejY5c052VTk4UVFHSUhjY0gyUVhqamhYY2EwcFJPTUhrdzBFRlV6cHBrR211dV8zYnfSAZwBQVVfeXFMUDZFNXBTM0FPV3kySzRkaTJOYWVYaUppdFVuU0xaRzNSX2V6Y29od0k5MnM0UUpvbmtJMWlQZkdjMTViam5scHNJcHFaVW9wZnR0X1poVFZJQ0JVNDRzVUFJUUZ0RGxSWmNCY3o2OXNOdlU5OFFRR0lIY2NIMlFYampoWGNhMHBST01Ia3cwRUZVenBwa0dtdXVfM2J3?oc=5"
     },
@@ -136,14 +144,6 @@
       "source": "Music-News.com",
       "published": "5 Sep 2026",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZVg1WWsycXdxTW1odDRBTWxkRjhwZWZOVEhYdklRMzdUMVpvalJYZnZXc19ITWotVUIzc1NqSy1NYjRTdG1WRXQzV2pNLTRyeFNBbW43RzI1VldncGxyU3E4RXpQTjBsRmJVNjVXd2RETXFFek5KVDVvb0sxSW9nSmR1ZGd6aDYyNTdCc0pyamNfZ09qUkFZR0xGX2ZiZFZsVzlB?oc=5"
-    },
-    {
-      "label": "LATEST",
-      "title": "ENHYPEN's 'The Sin' tops U.S. album chart",
-      "summary": "ENHYPEN's 'The Sin' tops U.S. album chart upi.com",
-      "source": "upi.com",
-      "published": "5 Sep 2026",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPaEljenQzT0w4d2dZaUNVSl90djlMRHRXdVVzQWtEWmtmM3NPN092QzR5eHo1RWhBWEVqV1B3eXR0cERaVXVUdkVnaDVrT1JtQllibWJDMm9ZNC1HcXM4T1BlX0V0aHBWQXFsdUI4Qi0wUnZYLTE3VGpyVjQwb2FoTmdUX3JONlh2ZjllY2xKSE9rNXJkMUpLejFpb9IBoAFBVV95cUxNdFlGZVNqUWJmZWJBSzlwemhsN2VRUktKM2xkVVZlejlnTHFSNXpfR192Nnc2WEQ4eEtnNzFZZFpzNE9IejJ2b3VUdWNNZTVTMVp4YUNCWmtHdHp2STdBYVpNQU40RktDVEQxZkdNanNEQU5pZDNKNUpFcjRwSDRSVndvVlk2ZU91bUZ0ZEZTYmZEWWdzRlN1bjRDSUpzZ3da?oc=5"
     }
   ]
 }
