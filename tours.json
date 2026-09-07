@@ -1,24 +1,6 @@
 {
-  "updatedAt": "2026-09-06T04:33:09Z",
+  "updatedAt": "2026-09-07T04:34:58Z",
   "events": [
-    {
-      "artist": "Stray Kids",
-      "start": "2026-09-05",
-      "end": "2026-09-06",
-      "city": "Japan",
-      "venue": "RUN IT JAPAN",
-      "country": "Japan",
-      "source": "https://www.straykidsjapan.com/runitjapan/"
-    },
-    {
-      "artist": "aespa",
-      "start": "2026-09-06",
-      "end": "2026-09-06",
-      "city": "Santiago",
-      "venue": "Movistar Arena",
-      "country": "Chile",
-      "source": "https://news.livenationentertainment.com/news/global-k-pop-force-aespa-unveils-details-of-upcoming-world-tour-2026-27-aespa-live-tour-synk-complaexity"
-    },
     {
       "artist": "aespa",
       "start": "2026-09-09",
